@@ -262,13 +262,16 @@ a {
 
 /* Profile picture - circular */
 .hero-profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 3px solid var(--accent);
-  object-fit: cover;
-  margin-bottom: 30px;
-  box-shadow: 0 0 30px rgba(124, 92, 252, 0.4);
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  max-height: 200px !important;
+  border-radius: 50% !important;
+  border: 3px solid var(--accent) !important;
+  object-fit: cover !important;
+  margin-bottom: 30px !important;
+  box-shadow: 0 0 30px rgba(124, 92, 252, 0.4) !important;
+  display: block !important;
 }
 
 /* Small label above the name */
