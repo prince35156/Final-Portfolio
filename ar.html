@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR Project — Prince Panchal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================================================
+       NAVIGATION BAR
+  ====================================================== -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Prince Panchal</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- ======================================================
+       PROJECT DETAIL CONTENT
+  ====================================================== -->
+  <div class="project-detail">
+
+    <!-- Back button — goes back to projects list -->
+    <a href="projects.html" class="back-link">← Back to Projects</a>
+
+    <!-- Project Title -->
+    <h1>🕶️ AR Project</h1>
+
+    <!-- Accent line under title (reusing section-title style) -->
+    <div style="width:50px; height:3px;
+         background: linear-gradient(90deg, #7c5cfc, #00d4aa);
+         border-radius:2px; margin-bottom:24px;"></div>
+
+    <!-- Overview -->
+    <p>
+      This Augmented Reality project overlays interactive 3D digital content
+      onto the physical world using marker-based AR detection. The goal was
+      to explore the potential of mixed-reality experiences in education and
+      product visualization.
+    </p>
+
+    <h2>Project Goal</h2>
+    <p>
+      To build a working AR demo that can recognize image markers and display
+      relevant 3D models or information on top of them — accessible via any
+      modern smartphone camera.
+    </p>
+
+    <h2>Technologies Used</h2>
+    <ul>
+      <li>HTML & CSS for the base web interface</li>
+      <li>AR.js (marker-based Augmented Reality)</li>
+      <li>A-Frame (3D web framework)</li>
+      <li>Blender (for creating 3D models)</li>
+    </ul>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li>Recognizes custom image markers in real-time</li>
+      <li>Displays 3D models over detected markers</li>
+      <li>Runs entirely in the browser — no app install needed</li>
+      <li>Works on both Android and iOS devices</li>
+    </ul>
+
+    <h2>What I Learned</h2>
+    <p>
+      Working on this project gave me a solid understanding of how augmented
+      reality works in the browser, how to use A-Frame for 3D scenes, and
+      how marker tracking algorithms detect and position virtual objects.
+    </p>
+
+    <!-- CTA Buttons -->
+    <div style="display:flex; gap:14px; margin-top:36px; flex-wrap:wrap;">
+      <a href="#" class="btn-primary">View Live Demo</a>
+      <a href="#" class="btn-secondary">View on GitHub</a>
+    </div>
+
+  </div>
+  <!-- End Project Detail -->
+
+
+  <!-- ======================================================
+       FOOTER
+  ====================================================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-socials">
+        <a href="https://github.com/prince35156/" class="footer-social-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/prince-panchal-242680399/" class="footer-social-link">LinkedIn</a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Prince Panchal. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
